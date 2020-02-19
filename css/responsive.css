@@ -1,0 +1,364 @@
+@media (min-width: 1280px) and (max-width: 1390px) {
+    nav li {
+        padding: 0 15px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+    .header-fixed {
+        padding: 0 7%;
+    }
+}
+@media  (max-width: 991px) {
+    header {
+        margin: 0;
+    }
+    .header {
+        margin: 0;
+        height: 80px;
+        align-self: center;
+        grid-template-columns: 1fr 22fr;
+    }
+   .nav-items {
+       display: none;
+    }
+   .header .logo{
+       grid-column-start: 2;
+       grid-row-start: 1;
+       align-self: center;
+   }
+   .header .cart {
+       display: none;
+   }
+    .burger-menu{
+        display: block;
+    }
+    .container {
+        max-width: 90%;
+        padding: 0;
+    }
+    #slider-wear {
+        padding: 50px 0;
+    }
+    #slider-wear h2 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    #slider-wear .project .item {
+        height: 500px;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+   /* .nav-items a {
+        font-size: 17px;
+    }
+
+    .nav-items .menu li a {
+        font-size: 10px;
+    }
+    #mens-wear .content {
+        width: 100%;
+    }
+    #mens-wear .content li {
+        padding: 10px 15px;
+    }
+    #mens-wear .content li a {
+        font-size: 12px;
+    }
+    #mens-wear .right-cat li {
+        padding: 20px 0;
+    }
+    #mens-wear .right-cat li a {
+        font-size: 14px;
+    }*/
+    #mens-wear  .box  .wear-name {
+        font-size: 20px;
+    }
+    #info .bottom-menu {
+        width: 100%;
+    }
+
+    #info .box {
+        padding: 0 15px;
+        width: 50%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    #info .box h3 {
+        font-size: 15px;
+    }
+    #icon .icon-block {
+        display: flex;
+        width: 100%;
+    }
+    #icon .icon-block li {
+        padding: 0;
+    }
+    #wear .banner-block .box:last-child img {
+        margin: 0;
+    }
+    #banner {
+        display: none;
+    }
+    #partners ul {
+        width: 100%;
+        text-align: center;
+    }
+    #partners ul li {
+    width: 33%;
+        margin-right: 0;
+    }
+    #ambrassador .items .box-1 .img {
+        height: 400px;
+    }
+}
+@media screen and  (max-width: 767px) {
+    .container {
+        max-width: 90%;
+    }
+    #slider-wear .project .item {
+        height: 500px;
+    }
+    #icon .icon-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #icon .icon-block li {
+        padding: 0;
+        width: 33%;
+        margin-bottom: 10px;
+    }
+    .test {
+        padding: 0 0 40px 0;
+        text-align: center;
+    }
+    .test .box {
+        margin-top: 40px;
+    }
+    .test  h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .test .subtitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .button-orange {
+        padding: 15px 20px 15px 20px;
+        font-size: 16px;
+    }
+    .test.two {
+        padding: 0;
+    }
+    #about {
+        padding: 30px 0;
+    }
+    #about .text-blog .text li {
+        margin-bottom: 15px;
+        color: #757575;
+    }
+    .section-title {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    footer .author span {
+        font-size: 13px;
+        color: #777777;
+        margin: 0 5px;
+    }
+    #ambrassador .items .box-1 .img {
+        height: 400px;
+    }
+}
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+    .button-orange {
+        padding: 15px 20px 15px 20px;
+    }
+    #slider-wear  {
+        padding: 50px 0 0 0;
+    }
+    .footer .copyright {
+        font-size: 11px;
+        width: 100%;
+    }
+    .footer .author span {
+        font-size: 11px;
+        margin: 0 5px 0 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 571px) {
+    #icon .icon-block {
+        padding-top: 10px;
+    }
+    #icon .icon-block li {
+        padding: 0;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    #slider-wear {
+        padding: 40px 0 0 0;
+    }
+    #slider-wear .project .item {
+        height: 500px;
+    }
+    #slider-wear .item .box-text {
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+    #slider-wear .item .box-text a {
+        font-size: 14px;
+    }
+    #slider-wear h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .test {
+        padding: 0 0 30px 0;
+        text-align: center;
+    }
+    .test .box {
+        margin-top: 30px;
+    }
+    .test h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .test .subtitle {
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    .button-orange {
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+    }
+    .test.two {
+        padding: 40px 0 0 0;
+    }
+    #wear {
+        display: none;
+    }
+    #about {
+        padding: 35px 0;
+    }
+    #about .section-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    #about .text-blog .text li {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    #info .box {
+        padding: 0 15px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    #info .box:first-child{
+        display: none;
+    }
+    #info .box:nth-child(2){
+        display: none;
+    }
+    #wear {
+        display: none;
+    }
+
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 90%;
+    }
+    #icon .icon-block {
+        padding-top: 10px;
+    }
+    #icon .icon-block li {
+        padding: 0;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    footer {
+        padding: 23px 0;
+    }
+    footer .footer {
+        display: block;
+    }
+    footer .author span {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+    footer .author span a {
+        font-size: 10px;
+        color: #777777;
+
+    }
+    #slider-wear .project .item {
+        height: 500px;
+    }
+    #slider-wear h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    #info .box {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #info .box:first-child{
+        display: none;
+    }
+    #info .box:nth-child(2){
+        display: none;
+    }
+    #wear {
+        display: none;
+    }
+    #slider-wear {
+        padding: 20px 0;
+    }
+    .test {
+        padding: 0 0 20px 0;
+        text-align: center;
+    }
+    .test .box {
+        margin-top: 15px;
+    }
+    .test h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .test .subtitle {
+        margin-bottom: 25px;
+        font-size: 13px;
+    }
+    .button-orange {
+        padding: 10px 10px 10px 10px;
+        font-size: 14px;
+    }
+    .test.two {
+        padding: 20px 0 0 0;
+    }
+    #wear {
+        display: none;
+    }
+    #about {
+        padding: 25px 0;
+    }
+    #about .section-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    #about .text-blog .text li {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    #info .box {
+
+    }
+}
