@@ -15,17 +15,10 @@
     .header {
         margin: 0;
         height: 80px;
-        align-self: center;
-        grid-template-columns: 1fr 22fr;
     }
    .nav-items {
        display: none;
     }
-   .header .logo{
-       grid-column-start: 2;
-       grid-row-start: 1;
-       align-self: center;
-   }
    .header .cart {
        display: none;
    }
@@ -49,28 +42,6 @@
     .owl-theme .owl-nav {
         display: none;
     }
-   /* .nav-items a {
-        font-size: 17px;
-    }
-
-    .nav-items .menu li a {
-        font-size: 10px;
-    }
-    #mens-wear .content {
-        width: 100%;
-    }
-    #mens-wear .content li {
-        padding: 10px 15px;
-    }
-    #mens-wear .content li a {
-        font-size: 12px;
-    }
-    #mens-wear .right-cat li {
-        padding: 20px 0;
-    }
-    #mens-wear .right-cat li a {
-        font-size: 14px;
-    }*/
     #mens-wear  .box  .wear-name {
         font-size: 20px;
     }
@@ -94,8 +65,15 @@
     #icon .icon-block li {
         padding: 0;
     }
-    #wear .banner-block .box:last-child img {
-        margin: 0;
+    .chack-list .boxs img {
+        object-fit: contain;
+        width: 100%;
+        height: 350px;
+    }
+    .test-form .boxs img {
+        object-fit: contain;
+        width: 100%;
+        height: 350px;
     }
     #banner {
         display: none;
@@ -110,6 +88,9 @@
     }
     #ambrassador .items .box-1 .img {
         height: 400px;
+    }
+    #shop-address .city-content iframe{
+        width: 100%;
     }
 }
 @media screen and  (max-width: 767px) {
@@ -147,9 +128,6 @@
         padding: 15px 20px 15px 20px;
         font-size: 16px;
     }
-    .test.two {
-        padding: 0;
-    }
     #about {
         padding: 30px 0;
     }
@@ -169,6 +147,53 @@
     #ambrassador .items .box-1 .img {
         height: 400px;
     }
+    #cart #item-full img{
+        height: 400px;
+    }
+    #localstores #map {
+        margin-top: 0;
+    }
+    #localstores #map .map {
+    margin-bottom: 30px;
+    }
+    #localstores #map .box {
+        padding: 0 30px;
+    }
+    #localstores .box h3 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    #localstores .box p {
+        margin-bottom: 10px;
+    }
+    #localstores #map .box-text {
+        margin-bottom: 20px;
+    }
+    #localstores #map .box-icons {
+        margin-bottom: 22px;
+    }
+    #localstores #map .box-icons .item {
+        margin-bottom: 5px;
+    }
+    #shop-address .map-subtitle  {
+        margin-bottom: 20px;
+    }
+    #shop-address .city-content iframe{
+        height: 200px;
+    }
+    #shop-address .city-content .map-title {
+        margin: 20px 0 10px 0;
+    }
+    #shop-address .plus {
+        margin-right: 0;
+    }
+    #localstores #map .map iframe {
+        height: 350px;
+    }
+    #localstores #map {
+        padding-bottom: 30px;
+    } 
+
 }
 @media (max-width: 600px) {
     .container {
@@ -237,9 +262,6 @@
     .test.two {
         padding: 40px 0 0 0;
     }
-    #wear {
-        display: none;
-    }
     #about {
         padding: 35px 0;
     }
@@ -261,9 +283,6 @@
         display: none;
     }
     #info .box:nth-child(2){
-        display: none;
-    }
-    #wear {
         display: none;
     }
 
@@ -316,9 +335,6 @@
     #info .box:nth-child(2){
         display: none;
     }
-    #wear {
-        display: none;
-    }
     #slider-wear {
         padding: 20px 0;
     }
@@ -341,12 +357,6 @@
         padding: 10px 10px 10px 10px;
         font-size: 14px;
     }
-    .test.two {
-        padding: 20px 0 0 0;
-    }
-    #wear {
-        display: none;
-    }
     #about {
         padding: 25px 0;
     }
@@ -357,8 +367,5 @@
     #about .text-blog .text li {
         margin-bottom: 15px;
         font-size: 13px;
-    }
-    #info .box {
-
     }
 }

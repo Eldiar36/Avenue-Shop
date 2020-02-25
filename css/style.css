@@ -530,14 +530,9 @@ span:focus {
 }
 
 .test {
-    padding: 0 0 90px 0;
+    padding: 0;
     background: #F2F2F2;
 }
-
-.test.two {
-    padding: 90px 0 0 0;
-}
-
 .test .box {
     margin-top: 120px;
 }
@@ -646,42 +641,6 @@ span:focus {
     background: none;
     color: #FFAA25;
 }
-
-#wear .banner-block {
-    max-width: 1150px;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-}
-
-#wear {
-    margin: 0 125px;
-    padding: 60px 0;
-}
-
-#wear .banner-block .box {
-    width: 570px;
-    height: auto;
-}
-
-#wear .banner-block a:nth-child(1) img {
-    margin-bottom: 18px;
-}
-
-#wear .banner-block .box:first-child img {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-}
-
-#wear .banner-block .box:last-child img {
-    max-width: 100%;
-    height: auto;
-    display: inline-block;
-}
-
 #about {
     padding: 80px 0;
 }
@@ -700,8 +659,6 @@ span:focus {
     color: #666666;
     margin-bottom: 25px;
     font-weight: 400;
-
-
 }
 
 #local {
@@ -712,6 +669,7 @@ span:focus {
     background: url("../images/container1.png") no-repeat center center;
     width: 100%;
     height: 320px;
+    background-size: cover;
 }
 
 #localstores #city {
@@ -1269,15 +1227,12 @@ footer .author a {
     width: 100%;
     height: auto;
 }
-
 #cart #preview-box img  {
     margin-bottom: 18px;
     cursor: pointer;
-    width: 109px;
     background-size: contain;
     transition: .7s ease-in-out;
 }
-
 #cart .buy-cart {
     padding-left: 40px;
 }
