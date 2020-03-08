@@ -16,12 +16,13 @@
         margin: 0;
         height: 80px;
     }
-   .nav-items {
+   .nav-menu,
+   .header .cart,
+    .gender-lg
+   {
        display: none;
     }
-   .header .cart {
-       display: none;
-   }
+
     .burger-menu{
         display: block;
     }
@@ -91,6 +92,13 @@
     }
     #shop-address .city-content iframe{
         width: 100%;
+    }
+    #cart #catalog #preview-box img {
+        width: 80px;
+    }
+    #cart #catalog #item-full img {
+        height: 400px;
+        object-fit: cover;
     }
 }
 @media screen and  (max-width: 767px) {
@@ -192,7 +200,7 @@
     }
     #localstores #map {
         padding-bottom: 30px;
-    } 
+    }
 
 }
 @media (max-width: 600px) {

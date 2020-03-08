@@ -19,30 +19,16 @@
 </head>
 <body>
 <header>
-    <div class="container">
-        <nav class="header d-flex align-items-center justify-content-between">
-            <a class="logo" href="index.html"><span>avenue</span> fashion</a>
-            <ul class="nav-items">
-                <li class="link"><a href="mens.html">Каталог</a></li>
-                <li class="link"><a href="aboutus.html">О нас</a></li>
-                <li class="link"><a href="thebrand.html">Бренд</a></li>
-                <li class="link"><a href="contacts.html">Контакты</a></li>
-            </ul>
-            <div class="cart">
-                <a href="#">
-                    <i class="icon-basket"></i>
-                </a>
-                <a href="signin.html">
-                    <i class="icon-user"></i>
-                </a>
-            </div>
-            <div class="burger-menu ">
-                <a href="#" class="burger-menu_button">
-                    <span class="burger-menu-lines"></span>
-                </a>
-                <nav class="burger-menu_nav">
-                    <a class="logo" href="index.html"><span>avenue</span> fashion</a>
-                    <div class="mobile-cart">
+    <div class="header-block">
+        <div class="header-top">
+            <div class="container">
+                <nav class="header d-flex align-items-center  justify-content-between ">
+                    <a class="logo" href="index.html"><span>Avenue</span> fashion</a>
+                    <div class="gender gender-lg">
+                        <a href="#">Мужчина</a>
+                        <a href="#">Женщина</a>
+                    </div>
+                    <div class="cart">
                         <a href="#">
                             <i class="icon-basket"></i>
                         </a>
@@ -50,15 +36,44 @@
                             <i class="icon-user"></i>
                         </a>
                     </div>
-                    <a href="mens.html" class="burger-menu_link">Каталог</a>
-                    <a href="aboutus.html" class="burger-menu_link">О нас</a>
-                    <a href="thebrand.html" class="burger-menu_link">Бренд</a>
-                    <a href="contacts.html" class="burger-menu_link">Контакты</a>
-                </nav>
-                <div class="burger-menu_overlay">
+                    <div class="burger-menu ">
+                        <a href="#" class="burger-menu_button">
+                            <span class="burger-menu-lines"></span>
+                        </a>
+                        <nav class="burger-menu_nav">
+                            <a class="logo" href="index.html"><span>avenue</span> fashion</a>
+                            <div class="mobile-cart">
+                                <a href="#">
+                                    <i class="icon-basket"></i>
+                                </a>
+                                <a href="signin.html">
+                                    <i class="icon-user"></i>
+                                </a>
+                            </div>
+                            <div class="gender">
+                                <a href="#">Мужчина</a>
+                                <a href="#">Женщина</a>
+                            </div>
+                            <a href="mens.html" class="burger-menu_link">Каталог</a>
+                            <a href="aboutus.html" class="burger-menu_link">О нас</a>
+                            <a href="individual.html" class="burger-menu_link">Инд.пошив</a>
+                            <a href="contacts.html" class="burger-menu_link">Контакты</a>
+                        </nav>
+                        <div class="burger-menu_overlay">
 
-                </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
+        </div>
+
+        <nav class="nav-menu mt-20">
+            <ul class="nav-items d-flex">
+                <li class="link"><a href="mens.html">Коллекция</a></li>
+                <li class="link"><a href="aboutus.html">О нас</a></li>
+                <li class="link"><a href="individual.html">Индивидуальный пошив</a></li>
+                <li class="link"><a href="contacts.html">Контакты</a></li>
+            </ul>
         </nav>
     </div>
 </header>
@@ -97,26 +112,31 @@
             <div class="row people owl-carousel owl-theme">
                 <div class=" items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a8.jpg) no-repeat"></div>
-                        
+                        <img src="images/a8.jpg" alt="">
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Криштиану Роналду</h3>
                         <p class="man-info">Легенда современного футбола.Португальский футболист, выступающий за итальянский клуб «Ювентус» и сборную Португалии</p>
                     </div>
                 </div>
-                <div class=" items">
+                <div class="items">
+                    <div class="row">
+                        <div class="col-lg-6">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a6.jpg) no-repeat"></div>
+                        <img src="images/a6.jpg" alt="">
                     </div>
+                    </div>
+                        <div class="col-lg-6">
                     <div class="items-info">
                         <h3 class="man-name">Канье Уэст</h3>
                         <p class="man-info">Американский исполнитель хип-хопа, рэпер, продюсер, композитор</p>
                     </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a5.jpg)"></div>
+                        <img src="images/a5.jpg" alt="">                
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Эдриен Броуди</h3>
@@ -125,7 +145,7 @@
                 </div>
                 <div class=" items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a4.jpg) no-repeat"></div>
+                        <img src="images/a4.jpg" alt="">
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Уиллем Дефо</h3>
@@ -134,7 +154,7 @@
                 </div>
                 <div class="items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a7.jpg)"></div>
+                        <img src="images/a7.jpg" alt="">
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Cергей Безруков</h3>
@@ -143,7 +163,7 @@
                 </div>
                 <div class="items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a9.jpg)"></div>
+                        <img src="images/a9.jpg" alt="">
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Леброн Джеймс</h3>
@@ -152,16 +172,16 @@
                 </div>
                 <div class=" items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a10.jpg) no-repeat"></div>
+                        <img src="images/a10.jpg" alt="">
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Леонардо Ди Каприо</h3>
-                        <p class="man-info">Американский актёр и продюсер.В нашем роскошном смокинге на Оскар 2016</p>
+                        <p class="man-info">Американский актёр и продюсер.В нашем роскошном костюме</p>
                     </div>
                 </div>
                 <div class="items">
                     <div class="box-1">
-                        <div class="img" style="background: url(images/a2.jpg)"></div>
+                        <img src="images/a2.jpg" alt="">
                     </div>
                     <div class="items-info">
                         <h3 class="man-name">Крис Эванс</h3>

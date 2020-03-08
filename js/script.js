@@ -21,7 +21,9 @@ function burgerMenu(selector) {
         }
     }
 }
-burgerMenu('.burger-menu')
+burgerMenu('.burger-menu');
+
+
 $(document).ready(function(){
     $(".project").owlCarousel({
         items: 7,
@@ -91,7 +93,7 @@ $(document).ready(function(){
         loop:true,
         nav:true,
         navText:false,
-        margin:10,
+
         dots:false,
         autoplay:true,
         smartSpeed:2000,
@@ -101,7 +103,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
     $(".people").owlCarousel({
-        items: 2,
+        items: 1,
         loop:true,
         nav:true,
         navText:true,
@@ -122,10 +124,10 @@ $(document).ready(function(){
                 items:1
             },
             1200: {
-                items:2
+                items:1
             },
             1400: {
-                items:2
+                items:1
 
             }
 
@@ -148,7 +150,7 @@ $('.popup-modal').magnificPopup({
 });
 //header-fixed
 window.onscroll = function showHeader() {
-    let header =    document.querySelector(".header");
+    let header =    document.querySelector(".header-block");
     if (window.pageYOffset > 200) {
         header.classList.add("header-fixed")
     }
