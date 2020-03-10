@@ -100,6 +100,16 @@
         height: 400px;
         object-fit: cover;
     }
+    #spring .box {
+        padding: 20px 0 20px 0;
+    }
+    #black .box {
+        padding-top: 0;
+    }
+    #spring .reverse {
+        flex-direction: row;
+        display: block;
+    }
 }
 @media screen and  (max-width: 767px) {
     .container {
@@ -226,154 +236,235 @@
     #icon .icon-block {
         padding-top: 10px;
     }
+
     #icon .icon-block li {
         padding: 0;
         width: 50%;
         margin-bottom: 10px;
     }
+
     #slider-wear {
         padding: 40px 0 0 0;
     }
+
     #slider-wear .project .item {
         height: 500px;
     }
+
     #slider-wear .item .box-text {
         padding: 10px 10px;
         margin-top: 10px;
     }
+
     #slider-wear .item .box-text a {
         font-size: 14px;
     }
+
     #slider-wear h2 {
         font-size: 20px;
         margin-bottom: 10px;
     }
+
     .test {
         padding: 0 0 30px 0;
         text-align: center;
     }
+
     .test .box {
         margin-top: 30px;
     }
+
     .test h3 {
         font-size: 20px;
         margin-bottom: 20px;
     }
+
     .test .subtitle {
         margin-bottom: 25px;
         font-size: 16px;
     }
+
     .button-orange {
         padding: 10px 15px 10px 15px;
         font-size: 16px;
     }
+
     .test.two {
         padding: 40px 0 0 0;
     }
+
     #about {
         padding: 35px 0;
     }
+
     #about .section-title {
         margin-bottom: 20px;
         font-size: 20px;
     }
+
     #about .text-blog .text li {
         margin-bottom: 15px;
         font-size: 13px;
     }
+
     #info .box {
         padding: 0 15px;
         width: 100%;
         text-align: center;
         margin-top: 20px;
     }
-    #info .box:first-child{
-        display: none;
-    }
-    #info .box:nth-child(2){
+
+    #info .box:first-child {
         display: none;
     }
 
-}
-@media (max-width: 320px) {
-    .container {
-        max-width: 90%;
-    }
-    #icon .icon-block {
-        padding-top: 10px;
-    }
-    #icon .icon-block li {
-        padding: 0;
-        width: 50%;
-        margin-bottom: 10px;
-    }
-    footer {
-        padding: 23px 0;
-    }
-    footer .footer {
-        display: block;
-    }
-    footer .author span {
-        width: 100%;
-        display: block;
-        margin: 0;
-    }
-    footer .author span a {
-        font-size: 10px;
-        color: #777777;
-
-    }
-    #slider-wear .project .item {
-        height: 500px;
-    }
-    #slider-wear h2 {
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
-    .owl-theme .owl-nav {
+    #info .box:nth-child(2) {
         display: none;
     }
-    #info .box {
-        width: 100%;
+
+    #cart .buy-cart {
+        padding: 20px 15px;
+    }
+
+    #cart .box .cart-price {
         margin-top: 10px;
     }
-    #info .box:first-child{
-        display: none;
+
+    #cart .box .cart-info {
+        margin-top: 20px;
     }
-    #info .box:nth-child(2){
-        display: none;
+
+    #cart .cart-size {
+        margin-top: 10px;
     }
+
+    #cart .buy-button {
+        margin-top: 20px;
+    }
+
+    #cart,
+    #tab-block,
     #slider-wear {
-        padding: 20px 0;
+        padding: 30px 0;
     }
-    .test {
-        padding: 0 0 20px 0;
-        text-align: center;
+
+    #tab-block ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
-    .test .box {
-        margin-top: 15px;
+
+    .tab-content .content-item {
+        padding: 10px 0;
+
     }
-    .test h3 {
-        font-size: 16px;
-        margin-bottom: 20px;
+    #partners ul li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
     }
-    .test .subtitle {
-        margin-bottom: 25px;
-        font-size: 13px;
-    }
-    .button-orange {
-        padding: 10px 10px 10px 10px;
-        font-size: 14px;
-    }
-    #about {
-        padding: 25px 0;
-    }
-    #about .section-title {
-        margin-bottom: 20px;
-        font-size: 20px;
-    }
-    #about .text-blog .text li {
-        margin-bottom: 15px;
-        font-size: 13px;
+
+    @media (max-width: 320px) {
+        .container {
+            max-width: 90%;
+        }
+
+        #icon .icon-block {
+            padding-top: 10px;
+        }
+
+        #icon .icon-block li {
+            padding: 0;
+            width: 50%;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            padding: 23px 0;
+        }
+
+        footer .footer {
+            display: block;
+        }
+
+        footer .author span {
+            width: 100%;
+            display: block;
+            margin: 0;
+        }
+
+        footer .author span a {
+            font-size: 10px;
+            color: #777777;
+
+        }
+
+        #slider-wear .project .item {
+            height: 500px;
+        }
+
+        #slider-wear h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .owl-theme .owl-nav {
+            display: none;
+        }
+
+        #info .box {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        #info .box:first-child {
+            display: none;
+        }
+
+        #info .box:nth-child(2) {
+            display: none;
+        }
+
+        #slider-wear {
+            padding: 20px 0;
+        }
+
+        .test {
+            padding: 0 0 20px 0;
+            text-align: center;
+        }
+
+        .test .box {
+            margin-top: 15px;
+        }
+
+        .test h3 {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .test .subtitle {
+            margin-bottom: 25px;
+            font-size: 13px;
+        }
+
+        .button-orange {
+            padding: 10px 10px 10px 10px;
+            font-size: 14px;
+        }
+
+        #about {
+            padding: 25px 0;
+        }
+
+        #about .section-title {
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+
+        #about .text-blog .text li {
+            margin-bottom: 15px;
+            font-size: 13px;
+        }
     }
 }

@@ -249,6 +249,7 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
 header {
     position: relative;
     width: 100%;
@@ -661,18 +662,28 @@ span:focus {
     height: 310px;
 }
 #collection-сlothes {
-    padding: 80px 0;
+    padding
+    : 80px 0;
 }
-#collection-сlothes .box .title {
+#collection-сlothes .box,
+#black .box ,
+#spring .box {
+    text-align: center;
+}
+
+#collection-сlothes .box .title,
+#black .box .title ,
+#spring .box .subtitle
+{
     margin: 20px 0;
     font-size: 14px;
     color: #2a2a2a;
-    text-align: center;
     font-weight: 600;
 }
-#collection-сlothes .box .subtitle {
+#collection-сlothes .box .subtitle,
+#black .box .subtitle,
+#spring .box .subtitle{
     font-size: 13px;
-    text-align: center;
     line-height: 20px;
     max-width: 560px;
     margin-left: auto;
@@ -680,37 +691,70 @@ span:focus {
     color: #51453f;
     font-style: italic;
 }
-#collection-сlothes .box .look {
-    max-width: 160px;
-    margin-right: auto;
-    margin-left: auto;
+#collection-сlothes .box .look ,
+#black .box .look {
     margin-top: 30px;
     position: relative;
-    padding: 5px 15px;
-}
-#collection-сlothes .box .look a {
-    text-align: center;
-    font-size: 17px;
+    font-size: 14px;
     color: #000000;
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    transition: background-color .45s,color .45s;
 }
-#collection-сlothes .box .look:before{
+#collection-сlothes .box .look:after,
+#black .box .look:before,
+#collection-сlothes .box .look:before,
+#black .box .look:after {
+    content: "";
     position: absolute;
+    width: 2px;
+    height: 50%;
+    background: #51453f;
 }
-#black-edition  #collection-сlothes {
+#collection-сlothes .box .look:after,
+#black .box .look:after
+{
+    top: 25%;
+    right: 0;
+}
+#collection-сlothes .box .look:before,
+#black .box .look:before
+{
+    top: 25%;
+    left: 0;
+}
+
+#black .box .look:hover,
+#collection-сlothes .box .look:hover {
+    background: #51453f;
+    color: #fff;
+    font-weight: 600;
+}
+#black .box {
+    padding-top: 150px;
+}
+#autumn-winter-collection  #collection-сlothes,
+#black-edition  #collection-сlothes
+ {
     padding: 0 0 70px 0;
+    background: #f5f5f5;
 }
-#black-edition  #collection-сlothes .box .title {
+#autumn-winter-collection  #collection-сlothes .box .title {
     font-size: 30px;
 }
+#autumn-winter .item,
 #black .item {
     margin-bottom: 30px;
     position: relative;
 }
-#black  .row-title {
+  .row-title {
     color: #51453f;
     font-size: 18px;
     font-weight: 700;
 }
+#autumn-winter .item .btn-view,
 #black .item .btn-view {
     position: absolute;
     top: 0;
@@ -728,10 +772,19 @@ span:focus {
     opacity: 0;
     transition: opacity .3s,padding-top .3s;
 }
+#autumn-winter .item:hover .btn-view,
 #black .item:hover .btn-view {
     opacity: 1;
     padding-top: 0;
+    cursor: pointer;
 
+}
+#spring .box {
+    padding: 50% 50px 0 50px;
+}
+#spring .reverse {
+    display: flex;
+    flex-direction: row-reverse;
 }
 .owl-nav button {
     background: none;
